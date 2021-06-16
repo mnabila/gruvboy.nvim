@@ -49,6 +49,8 @@ local theme = lush(function()
         SpellCap({ fg = c.fg0, gui = "underline", sp = c.yellow }),
         SpellLocal({ fg = c.fg0, gui = "underline", sp = c.green }),
         SpellRare({ fg = c.fg0, gui = "underline", sp = c.blue }),
+        StatusLine({ bg = c.none, fg = c.none }),
+        StatusLineNC({ bg = c.none, fg = c.none }),
         TabLine({ bg = c.bg1, fg = c.fg0 }),
         TabLineFill({ fg = c.fg0 }),
         TabLineSel({ bg = c.bg1, fg = c.yellow }),
@@ -67,7 +69,7 @@ local theme = lush(function()
         Float({ fg = c.purple }),
 
         Identifier({ fg = c.blue }),
-        Function({ fg = c.green, gui='bold' }),
+        Function({ fg = c.green, gui = "bold" }),
 
         Statement({ fg = c.red }),
         Conditional({ fg = c.red }),

@@ -10,6 +10,12 @@ local theme = lush(function()
         LspSagaCodeActionBorder({ fg = c.bg4 }),
         LspSagaDefPreviewBorder({ fg = c.bg4 }),
         LspLinesDiagBorder({ fg = c.bg4 }),
+        LspSagaCodeActionTruncateLine({ fg = c.bg4 }),
+        ProviderTruncateLine({ fg = c.bg4 }),
+        DiagnosticTruncateLine({ fg = c.bg4 }),
+        LspSagaShTruncateLine({ fg = c.bg4 }),
+        LspSagaDocTruncateLine({ fg = c.bg4 }),
+        LineDiagTuncateLine({ fg = c.bg4 }),
     }
 end)
 
