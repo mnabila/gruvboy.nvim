@@ -9,7 +9,6 @@ local theme = lush(function()
     }
 end)
 
--- return our parsed theme for extension or use else where.
 return theme
 
 -- vi:nowrap

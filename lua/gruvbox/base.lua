@@ -67,7 +67,7 @@ local theme = lush(function()
         Float({ fg = c.purple }),
 
         Identifier({ fg = c.blue }),
-        Function({ fg = c.aqua }),
+        Function({ fg = c.green, gui='bold' }),
 
         Statement({ fg = c.red }),
         Conditional({ fg = c.red }),

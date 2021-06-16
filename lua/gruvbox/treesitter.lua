@@ -17,7 +17,7 @@ local theme = lush(function()
         TSException({ fg = c.red }),
         TSField({ fg = c.blue }),
         TSFloat({ fg = c.purple }),
-        TSFunction({ fg = c.aqua }),
+        TSFunction({ fg = c.green, gui = "bold" }),
         TSFuncBuiltin({ fg = c.aqua }),
         TSFuncMacro({ fg = c.aqua }),
         TSInclude({ fg = c.aqua }),
