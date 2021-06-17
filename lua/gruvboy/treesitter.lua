@@ -1,5 +1,5 @@
 local lush = require("lush")
-local c = require("gruvboy.colors.dark")
+local c = require("gruvboy.colors")
 local base = require("gruvboy.base")
 
 local theme = lush(function()
@@ -14,7 +14,7 @@ local theme = lush(function()
         TSConstant({ base.Constant }),
         TSConstBuiltin({ fg = c.purple }),
         TSConstMacro({ base.Macro }),
-        TSError({ fg = c.none }),
+        TSError({}),
         TSException({ base.Exception }),
         TSField({ fg = c.blue }),
         TSFloat({ base.Float }),

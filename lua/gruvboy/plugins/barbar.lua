@@ -1,5 +1,5 @@
 local lush = require("lush")
-local c = require("gruvboy.colors.dark")
+local c = require("gruvboy.colors")
 
 local theme = lush(function()
     return {
