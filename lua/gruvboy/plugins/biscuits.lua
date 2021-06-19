@@ -3,7 +3,7 @@ local c = require("gruvboy.colors")
 
 local theme = lush(function()
     return {
-        BiscuitColor({ fg = c.bg0_s }),
+        BiscuitColor({ fg = c.bg1 }),
     }
 end)
 
