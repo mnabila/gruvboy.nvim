@@ -102,7 +102,7 @@ local theme = lush(function()
         Italic({ gui = "italic" }),
 
         Ignore({ fg = c.fg0 }),
-        Error({ fg = c.bright_yellow }),
+        Error({ fg = c.bg0, bg = c.bright_red }),
         Todo({ fg = c.fg3, gui = "bold,italic,reverse" }),
     }
 end)
