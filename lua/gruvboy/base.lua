@@ -35,7 +35,7 @@ local theme = lush(function()
         MoreMsg({ fg = c.yellow }),
         NonText({ fg = c.bg2 }),
         Normal({ fg = c.fg1 }),
-        NormalFloat({ fg = c.fg1, bg = c.bg2 }),
+        NormalFloat({ fg = c.fg1, bg = c.bg0 }),
         NormalNC({ fg = c.fg1 }),
         Pmenu({ fg = c.fg1, bg = c.bg2 }),
         PmenuSel({ fg = c.bg2, bg = c.bright_blue, gui = "bold" }),
@@ -102,8 +102,10 @@ local theme = lush(function()
         Italic({ gui = "italic" }),
 
         Ignore({ fg = c.fg0 }),
-        Error({ fg = c.bg0, bg = c.bright_red }),
+        Error({ fg = c.bright_red, gui = "bold,italic,reverse" }),
         Todo({ fg = c.fg3, gui = "bold,italic,reverse" }),
+
+        FloatBorder({ fg = c.bg4, bg = c.bg0 }),
     }
 end)
 
