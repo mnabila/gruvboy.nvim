@@ -1,5 +1,5 @@
 function Compile() abort
-  lua require('lush').export_to_buffer(require('gruvboy'))
+  lua require('gruvboy.utils').compile(require('gruvboy'), "gruvboy_compiled.vim")
 endfunction
 
 if has("nvim")

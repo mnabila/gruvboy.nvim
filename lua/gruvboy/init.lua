@@ -18,6 +18,7 @@ local plugins = {
     telescope = require("gruvboy.plugins.telescope"),
     translator = require("gruvboy.plugins.translator"),
     biscuits = require("gruvboy.plugins.biscuits"),
+    cmp = require("gruvboy.plugins.cmp"),
 }
 
 local parts = {
@@ -30,6 +31,7 @@ local parts = {
     plugins.telescope,
     plugins.translator,
     plugins.biscuits,
+    plugins.cmp,
     languages.css,
     languages.go,
     languages.html,
