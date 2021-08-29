@@ -1,11 +1,12 @@
 local M = {}
 local lush = require("lush")
 
-function M.compile(parsed_spec, filename)
-    local output = vim.fn.stdpath("config") .. "/colors/" .. filename
-    local buffer = io.open(output, "w+")
+M.compile_path = vim.fn.stdpath("config") .. "/colors/gruvboy_compiled.vim"
 
-    local lines = lush.compile(parsed_spec)
+function M.compile()
+    local buffer = io.open(M.compile_path, "w+")
+
+    local lines = lush.compile(require("gruvboy"))
     table.insert(lines, 1, '"Theme built with Lush.nvim, exported at ' .. os.date())
 
     for _, value in ipairs(lines) do
@@ -13,6 +14,10 @@ function M.compile(parsed_spec, filename)
     end
     buffer:close()
     print("Success, compile gruvboy to vimscript at " .. os.date())
+end
+
+function M.compile_is_exist()
+    return io.open(M.compile_path, "r") ~= nil
 end
 
 return M
