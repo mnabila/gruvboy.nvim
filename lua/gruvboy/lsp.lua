@@ -10,10 +10,10 @@ local theme = lush(function()
         -- LspReferenceRead                     { }, -- used for highlighting "read" references
         -- LspReferenceWrite                    { }, -- used for highlighting "write" references
 
-        LspDiagnosticsDefaultError({ fg = c.bright_red }),
-        LspDiagnosticsDefaultWarning({ fg = c.bright_orange }),
-        LspDiagnosticsDefaultInformation({ fg = c.bright_yellow }),
-        LspDiagnosticsDefaultHint({ fg = c.bright_blue }),
+        DiagnosticError({ fg = c.bright_red }),
+        DiagnosticWarn({ fg = c.bright_orange }),
+        DiagnosticInfo({ fg = c.bright_yellow }),
+        DiagnosticHint({ fg = c.bright_blue }),
 
         -- LspDiagnosticsVirtualTextError       { }, -- Used for "Error" diagnostic virtual text
         -- LspDiagnosticsVirtualTextWarning     { }, -- Used for "Warning" diagnostic virtual text
