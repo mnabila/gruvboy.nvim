@@ -13,12 +13,11 @@ local languages = {
 }
 local plugins = {
     barbar = require("gruvboy.plugins.barbar"),
+    cmp = require("gruvboy.plugins.cmp"),
     gitsigns = require("gruvboy.plugins.gitsigns"),
     nvimtree = require("gruvboy.plugins.nvimtree"),
     telescope = require("gruvboy.plugins.telescope"),
     translator = require("gruvboy.plugins.translator"),
-    biscuits = require("gruvboy.plugins.biscuits"),
-    cmp = require("gruvboy.plugins.cmp"),
 }
 
 local parts = {
@@ -26,12 +25,11 @@ local parts = {
     lsp,
     treesitter,
     plugins.barbar,
+    plugins.cmp,
     plugins.gitsigns,
     plugins.nvimtree,
     plugins.telescope,
     plugins.translator,
-    plugins.biscuits,
-    plugins.cmp,
     languages.css,
     languages.go,
     languages.html,
