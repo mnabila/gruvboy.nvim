@@ -12,7 +12,6 @@ local languages = {
     python = require("gruvboy.languages.python"),
 }
 local plugins = {
-    barbar = require("gruvboy.plugins.barbar"),
     cmp = require("gruvboy.plugins.cmp"),
     gitsigns = require("gruvboy.plugins.gitsigns"),
     nvimtree = require("gruvboy.plugins.nvimtree"),
@@ -24,7 +23,6 @@ local parts = {
     base,
     lsp,
     treesitter,
-    plugins.barbar,
     plugins.cmp,
     plugins.gitsigns,
     plugins.nvimtree,
