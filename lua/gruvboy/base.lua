@@ -34,7 +34,7 @@ local theme = lush(function()
 		MsgSeparator({ fg = c.fg1 }),
 		MoreMsg({ fg = c.yellow }),
 		NonText({ fg = c.bg2 }),
-		Normal({ fg = c.fg1 }),
+		Normal({ fg = c.fg1, bg = c.bg0 }),
 		NormalFloat({ fg = c.fg1, bg = c.bg0 }),
 		NormalNC({ fg = c.fg1 }),
 		Pmenu({ fg = c.fg1, bg = c.bg2 }),
