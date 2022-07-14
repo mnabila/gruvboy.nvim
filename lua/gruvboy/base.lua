@@ -49,7 +49,7 @@ local theme = lush(function()
 		SpellCap({ fg = c.fg0, gui = "underline", sp = c.yellow }),
 		SpellLocal({ fg = c.fg0, gui = "underline", sp = c.green }),
 		SpellRare({ fg = c.fg0, gui = "underline", sp = c.blue }),
-		StatusLine({ bg = c.none, fg = c.none }),
+		StatusLine({ bg = c.bg0, fg = c.none }),
 		StatusLineNC({ bg = c.none, fg = c.none }),
 		TabLine({ bg = c.bg1, fg = c.fg0 }),
 		TabLineFill({ fg = c.fg0 }),
