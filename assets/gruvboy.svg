@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1280px"
+   height="640px"
+   viewBox="0 0 1280 640"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="gruvboy.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   inkscape:export-filename="../diy/gruvboy.png"
+   inkscape:export-xdpi="97.300003"
+   inkscape:export-ydpi="97.300003"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.90509668"
+     inkscape:cx="517.62426"
+     inkscape:cy="336.42815"
+     inkscape:window-width="1362"
+     inkscape:window-height="719"
+     inkscape:window-x="0"
+     inkscape:window-y="20"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer3"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:showpageshadow="0"
+     inkscape:deskcolor="#d1d1d1">
+    <sodipodi:guide
+       position="0.0050067902,0.67614418"
+       orientation="1,0"
+       id="guide116"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="0,640"
+       orientation="0,-1"
+       id="guide118"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="0.18423426,-0.0012762547"
+       orientation="0,-1"
+       id="guide120"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="1280.25,393.75"
+       orientation="1,0"
+       id="guide122"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs9" />
+  <g
+     inkscape:label="bg"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:#fabd2f;fill-opacity:1;stroke-width:14.7963"
+       id="rect168"
+       width="1280.245"
+       height="640.00128"
+       x="0.0050067902"
+       y="0"
+       inkscape:export-filename="/home/nabil/git/gruvboy.nvim/assets/header.png"
+       inkscape:export-xdpi="97.300003"
+       inkscape:export-ydpi="97.300003" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="boy"
+     style="display:inline"
+     sodipodi:insensitive="true" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="text"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <g
+       id="g407">
+      <g
+         transform="matrix(0.03061207,0,0,-0.03591344,745.25102,337.51148)"
+         id="g104"
+         style="fill:#282828;fill-opacity:1">
+        <path
+           d="m 5372.9,4274.7 c -97.1,-12.8 -181.4,-25.5 -189.1,-30.7 -23,-25.5 51.1,-868.7 92,-1032.2 l 46,-184 h -153.3 c -396,0 -689.9,355.2 -789.5,950.5 -28.1,161 -40.9,186.5 -81.8,181.4 -28.1,-2.5 -117.5,-12.8 -201.9,-20.4 l -148.2,-17.9 15.3,-122.6 c 46,-342.4 181.4,-723.1 321.9,-899.4 92,-112.4 92,-122.6 23,-122.6 -28.1,0 -161,-25.5 -293.8,-56.2 -237.6,-53.6 -242.7,-53.6 -281.1,-5.1 -120.1,150.7 -240.2,360.3 -268.3,470.1 -35.8,143.1 -35.8,143.1 -301.5,109.9 -135.4,-15.3 -135.4,-15.3 -122.7,-94.5 23,-138 117.5,-362.8 224.9,-526.4 56.2,-86.9 99.6,-161 94.5,-166.1 -5.1,-2.6 -104.7,-53.7 -222.3,-112.4 C 2352.6,2202.6 1706.2,1502.5 1397,710.4 1320.3,516.2 1310.1,500.9 1253.9,513.7 c -33.2,7.7 -138,2.6 -237.6,-15.3 C 122.2,347.6 -210,-664.3 439,-1262.1 c 186.5,-171.2 393.5,-255.5 695,-281.1 l 191.6,-15.4 69,-181.4 c 263.2,-677.1 787,-1300.5 1448.7,-1727.3 196.7,-127.8 577.5,-304 838.1,-390.9 838.1,-278.5 1699.1,-278.5 2544.9,2.5 784.4,260.6 1474.3,774.2 1918.9,1436 132.9,194.2 362.8,643.9 408.8,797.2 l 28.1,92 158.4,-10.2 c 815.1,-51.1 1395.1,735.9 1065.5,1441.1 -89.4,191.6 -265.7,375.6 -454.8,477.8 -173.7,92 -462.5,153.3 -633.7,132.9 l -132.9,-17.9 -58.8,163.5 c -204.4,564.7 -636.2,1152.3 -1134.5,1540.7 -390.9,304.1 -718,477.8 -1206,641.3 -194.2,63.9 -304,117.5 -362.8,171.2 -127.8,122.6 -181.4,334.7 -214.6,835.5 -15.3,232.5 -35.8,429.2 -43.4,436.9 -7.7,7.7 -94.5,5.2 -191.6,-7.6 z m 150.7,-1694 c 360.3,-56.2 661.7,-153.3 996.5,-316.8 C 7646.9,1714.5 8321.4,674.6 8321.4,-511 c 0,-1522.8 -1131.9,-2802.9 -2733.9,-3094.2 -334.7,-61.3 -953,-61.3 -1277.5,0 -1147.2,219.7 -2085,942.8 -2504,1931.6 -329.6,776.7 -301.5,1691.5 76.7,2468.2 301.5,620.9 881.5,1183 1540.7,1492.2 120.1,56.2 227.4,102.2 240.2,102.2 12.8,0 86.9,-46 163.5,-104.8 171.2,-127.8 546.8,-311.7 751.2,-367.9 84.3,-23 273.4,-48.5 419,-56.2 l 265.7,-15.3 -15.3,138 c -10.2,76.7 -17.9,168.6 -17.9,209.5 0,69 -2.6,69 -171.2,69 -97.1,0 -247.8,17.9 -339.8,40.9 -178.9,40.9 -551.9,209.5 -523.8,235.1 76.6,76.6 947.9,104.7 1328.6,43.4 z M 1200.4,7.7 c -25.6,-135.4 -25.6,-919.8 -2.5,-1047.6 l 17.9,-97.1 h -97.1 c -127.8,0 -396,135.4 -475.2,240.2 -232.6,304.1 -173.8,661.8 148.1,889.2 79.2,56.2 265.7,117.5 370.5,120.1 53.6,2.5 56.2,-5.1 38.3,-104.8 z m 7931,28.1 c 135.4,-66.4 304,-253 339.8,-378.1 81.8,-298.9 -43.4,-569.8 -334.7,-715.4 -117.5,-58.8 -194.2,-79.2 -296.4,-79.2 h -138 l 20.4,237.6 c 25.6,301.5 25.6,482.9 0,781.9 l -23,240.2 161,-17.9 c 89.5,-7.8 209.6,-38.4 270.9,-69.1 z"
+           id="path96"
+           style="fill:#282828;fill-opacity:1" />
+        <path
+           d="m 3321.1,758.9 c -230,-81.8 -388.4,-235.1 -493.1,-472.7 -53.7,-122.7 -81.8,-321.9 -43.4,-324.5 10.2,0 99.7,0 196.7,0 150.7,0 178.9,7.7 178.9,43.4 0,99.6 109.9,265.7 214.6,327.1 258.1,150.7 577.5,20.4 654.1,-268.3 30.7,-112.4 51.1,-120.1 293.8,-84.3 L 4442.8,-5 4430,104.8 c -25.6,242.7 -207,485.5 -457.4,613.2 -178.8,92 -457.3,109.9 -651.5,40.9 z"
+           id="path98"
+           style="fill:#282828;fill-opacity:1" />
+        <path
+           d="M 6060.2,771.7 C 5896.7,718 5812.4,664.4 5699.9,544.3 5561.9,401.2 5485.3,245.4 5467.4,69.1 c -15.3,-138 -15.3,-140.5 46,-125.2 33.2,10.2 127.8,17.9 209.5,17.9 143.1,0 145.6,0 145.6,74.1 0,84.3 84.3,217.2 186.5,293.8 107.3,79.2 383.3,76.7 498.2,-5.1 89.4,-63.9 184,-224.9 184,-311.7 0,-56.2 40.9,-61.3 278.5,-33.2 L 7151.2,-5 7135.8,99.8 c -40.9,258.1 -250.4,526.3 -495.7,636.2 -148.1,63.8 -436.8,81.7 -579.9,35.7 z"
+           id="path100"
+           style="fill:#282828;fill-opacity:1" />
+        <path
+           d="m 3543.4,-2010.8 c -63.9,-28.1 -140.5,-61.3 -173.7,-74.1 l -56.2,-23 74.1,-150.7 c 217.2,-426.7 684.8,-781.9 1167.7,-884.1 559.6,-120.1 1142.1,40.9 1556,426.7 184,171.2 378.2,439.5 408.8,562.1 15.3,56.2 2.5,69 -120.1,115 -74.1,30.7 -153.3,61.3 -176.3,71.5 -30.6,12.8 -61.3,-17.9 -117.5,-120.1 -240.2,-421.6 -679.6,-682.2 -1157.4,-682.2 -263.2,-2.6 -393.5,25.6 -613.2,130.3 -196.7,94.5 -521.2,406.3 -597.9,577.4 -25.6,58.8 -56.2,107.3 -63.9,104.8 -7.7,0.1 -66.5,-25.5 -130.4,-53.6 z"
+           id="path102"
+           style="fill:#282828;fill-opacity:1" />
+      </g>
+      <g
+         id="g395">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:88.5178px;line-height:1.25;font-family:'Balsamiq Sans';-inkscape-font-specification:'Balsamiq Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#1d2021;fill-opacity:1;stroke:none;stroke-width:2.21294"
+           x="225.20715"
+           y="312.10797"
+           id="text6666"
+           transform="scale(0.91322675,1.0950183)"><tspan
+             sodipodi:role="line"
+             id="tspan6664"
+             x="225.20715"
+             y="312.10797"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:88.5178px;font-family:'Balsamiq Sans';-inkscape-font-specification:'Balsamiq Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1d2021;fill-opacity:1;stroke-width:2.21294">Gruvboy.nvim</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.0874px;line-height:1.25;font-family:'Balsamiq Sans';-inkscape-font-specification:'Balsamiq Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#3c3836;fill-opacity:1;stroke:none;stroke-width:0.527187"
+           x="368.46759"
+           y="371.91196"
+           id="text16317"
+           transform="scale(0.94091957,1.0627901)"><tspan
+             sodipodi:role="line"
+             x="368.46759"
+             y="371.91196"
+             style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.0874px;font-family:'Balsamiq Sans';-inkscape-font-specification:'Balsamiq Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#3c3836;fill-opacity:1;stroke-width:0.527187"
+             id="tspan317">colorscheme &quot;gruvboy&quot;</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
