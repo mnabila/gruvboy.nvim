@@ -1,25 +1,20 @@
-local lush = require("lush")
 local c = require("gruvboy.colors")
 
-local theme = lush(function()
-    return {
-        htmlTag({ fg = c.aqua, gui = "bold" }),
-        htmlEndTag({ fg = c.aqua, gui = "bold" }),
-        htmlTagName({ fg = c.blue }),
-        htmlArg({ fg = c.orange }),
-        htmlScriptTag({ fg = c.purple }),
-        htmlTagN({ fg = c.fg1 }),
-        htmlSpecialTagName({ fg = c.blue }),
-        htmlSpecialChar({ fg = c.red }),
-        htmlLink({ fg = c.fg4, gui = "underline" }),
-        htmlBold({ fg = c.fg1, gui = "bold" }),
-        htmlBoldUnderline({ fg = c.fg1, gui = "bold,underline" }),
-        htmlBoldItalic({ fg = c.fg1, gui = "bold" }),
-        htmlBoldUnderlineItalic({ fg = c.fg1, gui = "bold" }),
-        htmlItalic({ fg = c.fg1, gui = "italic" }),
-    }
-end)
+local theme = {
+	htmlTag = { fg = c.aqua, bold = true },
+	htmlEndTag = { fg = c.aqua, bold = true },
+	htmlTagName = { fg = c.blue },
+	htmlArg = { fg = c.orange },
+	htmlScriptTag = { fg = c.purple },
+	htmlTagN = { fg = c.fg1 },
+	htmlSpecialTagName = { fg = c.blue },
+	htmlSpecialChar = { fg = c.red },
+	htmlLink = { fg = c.fg4, underline = true },
+	htmlBold = { fg = c.fg1, bold = true },
+	htmlBoldUnderline = { fg = c.fg1, bold = true, underline = true },
+	htmlBoldItalic = { fg = c.fg1, bold = true },
+	htmlBoldUnderlineItalic = { fg = c.fg1, bold = true },
+	htmlItalic = { fg = c.fg1, italic = true },
+}
 
 return theme
-
--- vi:nowrap

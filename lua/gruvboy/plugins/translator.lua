@@ -1,11 +1,8 @@
-local lush = require("lush")
 local c = require("gruvboy.colors")
 
-local theme = lush(function()
-    return {
-        TranslatorBorder({ fg = c.bg4 }),
-    }
-end)
+local theme = {
+	TranslatorBorder = { fg = c.bg4 },
+}
 
 return theme
 

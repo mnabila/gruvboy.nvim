@@ -2,7 +2,7 @@
 
 <hr>
 
-My own variation of gruvbox colorscheme made with [lush.nvim](https://github.com/rktjmp/lush.nvim).
+My own variation of gruvbox colorscheme made with :love:.
 
 # Screenshot
 
@@ -19,7 +19,6 @@ how to to install gruvboy.nvim with packer.nvim or vim-plug
 ```
 use {
   'mnabila/gruvboy.nvim',
-  requires = { 'rktjmp/lush.nvim' },
 }
 
 ```
@@ -27,7 +26,6 @@ use {
 [vim-plug](https://github.com/junegunn/vim-plug)
 
 ```
-Plug 'rktjmp/lush.nvim'
 Plug 'mnabila/gruvboy.nvim'
 ```
 

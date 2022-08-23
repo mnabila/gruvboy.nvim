@@ -17,4 +17,4 @@ let g:colors_name="gruvboy"
 lua package.loaded['gruvboy'] = nil
 
 " include our theme file and pass it to lush to apply
-lua require('lush')(require('gruvboy'))
+lua require('gruvboy')

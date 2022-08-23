@@ -1,41 +1,14 @@
-local lush = require("lush")
-local base = require("gruvboy.base")
-local lsp = require("gruvboy.lsp")
-local treesitter = require("gruvboy.treesitter")
+local utils = require("gruvboy.utils")
+local theme = {}
 
-local languages = {
-    css = require("gruvboy.languages.css"),
-    go = require("gruvboy.languages.go"),
-    html = require("gruvboy.languages.html"),
-    javascript = require("gruvboy.languages.javascript"),
-    markdown = require("gruvboy.languages.markdown"),
-    python = require("gruvboy.languages.python"),
-}
-local plugins = {
-    cmp = require("gruvboy.plugins.cmp"),
-    gitsigns = require("gruvboy.plugins.gitsigns"),
-    nvimtree = require("gruvboy.plugins.nvimtree"),
-    telescope = require("gruvboy.plugins.telescope"),
-    translator = require("gruvboy.plugins.translator"),
-}
-
-local parts = {
-    base,
-    lsp,
-    treesitter,
-    plugins.cmp,
-    plugins.gitsigns,
-    plugins.nvimtree,
-    plugins.telescope,
-    plugins.translator,
-    languages.css,
-    languages.go,
-    languages.html,
-    languages.javascript,
-    languages.markdown,
-    languages.python,
-}
-
-local theme = lush.merge(parts)
-
-return theme
+-- base hightlight group
+theme = utils.merge(theme, require("gruvboy.base"))
+-- lsp hightlight group
+theme = utils.merge(theme, require("gruvboy.lsp"))
+-- treesitter hightlight group
+theme = utils.merge(theme, require("gruvboy.treesitter"))
+--- plugins hightlight group
+theme = utils.merge(theme, require("gruvboy.plugins"))
+--- languages hightlight group
+theme = utils.merge(theme, require("gruvboy.languages"))
+utils.set_hl(theme)
