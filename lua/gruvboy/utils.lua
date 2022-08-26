@@ -1,12 +1,5 @@
 local M = {}
 
--- M.compile_path = vim.fn.stdpath("config") .. "/colors/gruvboy_compiled.vim"
---
--- -- check gruvboy is compiled ?
--- function M.compile_is_exist()
--- 	return io.open(M.compile_path, "r") ~= nil
--- end
-
 -- merge theme
 function M.merge(theme, parts)
 	for k, v in pairs(parts) do
@@ -16,21 +9,49 @@ function M.merge(theme, parts)
 end
 
 -- set hightlight
-function M.set_hl(theme)
+function M.nvim_set_hl(theme)
 	for k, v in pairs(theme) do
 		vim.api.nvim_set_hl(0, k, v)
 	end
 end
 
+function M.highlight_style(style, value)
+	if style ~= "gui=NONE" then
+		style = style .. "," .. value
+	else
+		style = "gui=" .. value
+	end
+	return style
+end
+
+function M.highlight(group, opt)
+	local style = "gui=NONE"
+	local fg = "guifg=NONE"
+	local bg = "guibg=NONE"
+	for k, v in pairs(opt) do
+		if k == "fg" then
+			fg = "guifg=" .. v
+		elseif k == "bg" then
+			bg = "guibg=" .. v
+		else
+			style = M.highlight_style(style, k)
+		end
+	end
+
+	local hl = "highlight " .. group .. " " .. fg .. " " .. bg .. " " .. style .. "\n"
+	return hl
+end
+
 -- compile luascript to vimscript
--- function M.compile(theme)
--- 	local buffer = io.open(M.compile_path, "w+")
---
--- 	-- for k, v in ipairs(theme) do
--- 	-- end
---
--- 	buffer:close()
--- 	print("Success, compile gruvboy to vimscript at " .. os.date())
--- end
+function M.compile(theme)
+	local compile_path = vim.fn.stdpath("config") .. "/colors/gruvboy_compiled.vim"
+	local buffer = io.open(compile_path, "w+")
+
+	for k, v in pairs(theme) do
+		buffer:write(M.highlight(k, v))
+	end
+	buffer:close()
+	print("Success, compile gruvboy to vimscript at " .. os.date())
+end
 
 return M

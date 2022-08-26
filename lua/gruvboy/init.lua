@@ -11,4 +11,7 @@ theme = utils.merge(theme, require("gruvboy.treesitter"))
 theme = utils.merge(theme, require("gruvboy.plugins"))
 --- languages hightlight group
 theme = utils.merge(theme, require("gruvboy.languages"))
-utils.set_hl(theme)
+
+utils.nvim_set_hl(theme)
+
+return theme
