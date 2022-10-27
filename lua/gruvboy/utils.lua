@@ -24,21 +24,31 @@ function M.highlight_style(style, value)
 	return style
 end
 
+-- ERROR(mnabila): error on gui='xxxxx', need help
 function M.highlight(group, opt)
 	local style = "gui=NONE"
 	local fg = "guifg=NONE"
 	local bg = "guibg=NONE"
+	local sp = ""
 	for k, v in pairs(opt) do
 		if k == "fg" then
 			fg = "guifg=" .. v
 		elseif k == "bg" then
 			bg = "guibg=" .. v
+		elseif k == "sp" then
+			sp = "sp=" .. v
 		else
 			style = M.highlight_style(style, k)
 		end
 	end
 
-	local hl = "highlight " .. group .. " " .. fg .. " " .. bg .. " " .. style .. "\n"
+	local hl = ""
+	if sp ~= "" then
+		hl = "highlight " .. group .. " " .. fg .. " " .. bg .. " " .. sp .. " " .. style .. "\n"
+	else
+		hl = "highlight " .. group .. " " .. fg .. " " .. bg .. " " .. style .. "\n"
+	end
+
 	return hl
 end
 
