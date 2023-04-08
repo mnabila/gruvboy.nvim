@@ -1,17 +1,15 @@
-local utils = require("gruvboy.utils")
-local theme = {}
+local M = {}
 
--- base hightlight group
-theme = utils.merge(theme, require("gruvboy.base"))
--- lsp hightlight group
-theme = utils.merge(theme, require("gruvboy.lsp"))
--- treesitter hightlight group
-theme = utils.merge(theme, require("gruvboy.treesitter"))
---- plugins hightlight group
-theme = utils.merge(theme, require("gruvboy.plugins"))
---- languages hightlight group
-theme = utils.merge(theme, require("gruvboy.languages"))
+M.load = function()
+	if vim.version().minor < 8 then
+		vim.notify_once("gruvboy.nvim: you must use neovim 0.8 or higher")
+		return
+	end
 
-utils.nvim_set_hl(theme)
+	local groups = require("gruvboy.groups")
+	for group, opts in pairs(groups) do
+		vim.api.nvim_set_hl(0, group, opts)
+	end
+end
 
-return theme
+return M

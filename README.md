@@ -43,11 +43,6 @@ if using init.vim
 colorscheme gruvboy
 ```
 
-# Todo
-
-- [x] gruvboy dark mode
-- [ ] gruvboy light mode
-
 # License
 
 Source is available under the [Mit License](https://github.com/mnabila/gruvboy.nvim/blob/main/LICENSE)
