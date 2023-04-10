@@ -20,7 +20,7 @@ local M = {
 	TermCursor = { link = "Cursor" },
 	TermCursorNC = { link = "TermCursor" },
 	ErrorMsg = { bg = c.red, fg = c.dark0 },
-	WinSeparator = { fg = c.dark1 },
+	WinSeparator = { fg = c.light0 },
 	Folded = { fg = c.dark1 },
 	FoldedColumn = { link = "Folded" },
 	SignColumn = { fg = c.dark3 },
@@ -74,7 +74,7 @@ local M = {
 	WinBarNC = { link = "WinBar" },
 	--
 	--See :h group-name
-	Comment = { fg = c.dark3 },
+	Comment = { fg = c.gray },
 	Constant = { fg = c.purple },
 	String = { fg = c.green },
 	Character = { fg = c.purple },
