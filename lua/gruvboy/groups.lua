@@ -212,7 +212,7 @@ local M = {
 	TelescopePromptBorder = { link = "FloatBorder" },
 	TelescopeResultsBorder = { link = "FloatBorder" },
 	TelescopePromptPrefix = { fg = c.light0 },
-	TelescopeMatching = { bg = c.light0, fg = c.dark0, bold = true },
+	TelescopeMatching = { bg = "NONE", fg = "NONE" },
 	--
 	--See :h translator-highlight
 	TranslatorBorder = { link = "FloatBorder" },
